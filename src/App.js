@@ -4,6 +4,8 @@ import Variables from './components/Variables'
 import Eventos from './components/Eventos';
 import Estados from './components/Estados';
 import Contador from './components/Contador';
+import Listas from './components/Listas'
+import ArrayObjetos from './components/ArrayObjetos';
 //si se añade el componente a la fntcn App, se importan inmediatamente
 
 
@@ -17,12 +19,14 @@ function App() {
     //<>
     <Fragment>
       <h1>Hola mundo!</h1>
-      <Parrafo /> 
+      {/*<Parrafo /> 
       <Parrafo />
       <Variables /> 
       <Eventos/>
       <Estados/>
       <Contador/>
+      <Listas/>*/}
+      <ArrayObjetos/>
     </Fragment>
     //</div>
     //</>

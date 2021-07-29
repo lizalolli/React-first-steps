@@ -12,6 +12,7 @@ const Estados = () => {
     //SETTEXTO va a ser la función que va a modificar el texto en cuestión.
     //Set se usa por convención
     // Dentro de USESTATE se pondrá el valor de texto por defecto
+    // USESTATE ES EL VALOR DE NUESTRO ESTADO
     //en el h3 añadimoos el estado 'texto' y esto nos muestra el contenido del useState
 
     const eventoClick = () => {

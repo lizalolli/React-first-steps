@@ -4,8 +4,10 @@ import Variables from './components/Variables'
 import Eventos from './components/Eventos';
 import Estados from './components/Estados';
 import Contador from './components/Contador';
-import Listas from './components/Listas'
+import Listas from './components/Listas';
 import ArrayObjetos from './components/ArrayObjetos';
+import OperadorPropagacion from './components/OperadorPropagacion';
+import Props from './components/Props'
 //si se añade el componente a la fntcn App, se importan inmediatamente
 
 
@@ -25,11 +27,19 @@ function App() {
       <Eventos/>
       <Estados/>
       <Contador/>
-      <Listas/>*/}
+      <Listas/>
       <ArrayObjetos/>
+      <OperadorPropagacion/>
+      <Props persona="Juanito" edad={25}/>*/}
+      <Props persona="Ignacito"/>
+      <Props persona="Pedro"/>
+      <Props persona="Catalina"/>
     </Fragment>
     //</div>
     //</>
+    //en el caso de Props, 'persona' vendría siendo un props.
+    //desde acá, enviamos props.s
+    //las props que se pasen en un componente forman parte del mismo objeto
   );
 }
 // arriba, con la etiqueta <Parrafo /> añadimos nuestro componente párrafo desde el archivo Parrafo.jsx 
